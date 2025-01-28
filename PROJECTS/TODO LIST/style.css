@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background: none;
+    border: none;
+}

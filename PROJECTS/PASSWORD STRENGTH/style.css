@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+.password {
+    width: 300px;
+    height: 25px;
+}
+
+.labels {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    margin-top: 6px;
+}
+
+#strength,
+#length {
+    font-weight: 700;
+}
+
+span {
+    font-size: 12px;
+    color: #000;
+    padding: 10px 0px;
+}
+
+label {
+    color: #d3d3d3;
+    font-size: 12px;
+}
+
+.progress {
+    height: 5px;
+}
+
+.progress-bar {
+    outline: 1px solid #000;
+    height: 5px;
+    margin-left: 38%;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-right: 38%;
+    margin-bottom: 10px;
+}

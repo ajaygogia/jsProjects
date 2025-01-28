@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: gainsboro;
+    opacity: 0.3;
+}
+
+#board {
+    display: inline-grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    border: 2px solid black;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    padding: 0;
+    border: 0px solid black;
+}
+
+.red {
+    background-color: red;
+    opacity: 1;
+}

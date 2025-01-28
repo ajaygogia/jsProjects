@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+#score {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 500px;
+}
+
+#currentScore,
+#maxScore {
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+td {
+    padding: 40px;
+    border: 1px solid black;
+}
+
+#board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

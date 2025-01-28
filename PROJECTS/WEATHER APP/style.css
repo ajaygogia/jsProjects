@@ -1,0 +1,75 @@
+body {
+    align-items: center;
+}
+
+#card {
+    width: 30%;
+    min-height: 100px;
+    height: auto;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    margin: 10px auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+p {
+    margin-top: -5px;
+    align-items: end;
+    text-align: left;
+    margin-left: 52px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    position: relative;
+}
+
+input {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: none;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+span {
+    display: block;
+    color: white;
+    font-size: 50px;
+    margin: 10px 0px
+}
+
+label {
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 8px
+}
+
+.bottom-img {
+    height: 20px;
+    width: 20px;
+    margin: 5px 2px;
+}

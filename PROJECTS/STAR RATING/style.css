@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+
+.star-empty {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.star-filled {
+    color: gold;
+    border: none;
+    font-size: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.star-hover {
+    color: gold;
+    border: none;
+    font-size: 40px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.star-empty::before {
+    content: '☆';
+}
+
+p {
+    font-size: 50px;
+}
+
+.star-filled::before {
+    content: '★';
+}
+
+.star-hover::before {
+    content: '★';
+}
+
+.star-hover-removed {
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+}
+
+.star-hover-removed::before {
+    content: '☆';
+    border: none;
+}

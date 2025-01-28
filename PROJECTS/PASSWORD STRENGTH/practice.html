@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="practice.js"></script>
+</head>
+
+<body>
+    <h1>Password Strength</h1>
+    <input class="password" type="text" id="password" oninput="strengthCheck()" maxlength="24"
+        placeholder="Enter your password">
+    <div class="labels">
+        <label id="lc">Lowercase</label>
+        <label id="uc">Uppercase</label>
+        <label id="no">Number</label>
+        <label id="sy">Symbols</label>
+    </div>
+    <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+    </div>
+    <span style="display: block">Your password has<span id="length"> 0 </span>characters</span>
+
+    <span style="display: block">Your password is <span id="strength">Week</span></span>
+</body>
+
+</html>

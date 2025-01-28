@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    height: 20px;
+}
+
+#chipContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 4px;
+}
+
+.chip {
+    height: 12px;
+    width: max-content;
+    border-radius: 10px;
+    padding: 9px;
+    background: #dddddd;
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+}

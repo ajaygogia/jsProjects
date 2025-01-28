@@ -1,0 +1,19 @@
+body {
+    height: 80vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    color: brown;
+    display: inline-flex;
+}
+
+span::after{
+    content: '!';
+    display: inline-block;
+    color: black;
+    width: 2px;
+    margin-left: 4px;
+}

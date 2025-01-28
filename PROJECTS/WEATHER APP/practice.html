@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="practice.js"></script>
+</head>
+
+<body>
+    <div id="card">
+        <h2>CHECK THE WEATHER!!</h2>
+        <input type="text" onkeyup="getCity(event)" id="city" placeholder="Enter city name">
+        <button id="search" onclick="getWeather()">Submit</button>
+        <p id="error">Invalid City</p>
+        <div id="display">
+            <img id="sky">
+            <div>
+                <span id="temp"></span>
+                <span style="color: black;" id="place"></span>
+            </div>
+            <div class="div">
+                <div class="col">
+                    <label id="humidity"></label>
+                    <img class="bottom-img" src="humidity.png" alt="">
+                    <label>HUMIDITY</label>
+                </div>
+                <div class="col">
+                    <label id="windspeed"></label>
+                    <img class="bottom-img" src="wind.png" alt="">
+                    <label>WIND SPEED</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
