@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+input {
+    margin-top: 50px;
+    width: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
